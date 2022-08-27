@@ -1,0 +1,404 @@
+/*Codigo para resetar o CSS padrão do navegador**/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  --cor1: #ccc;
+  --cor2: #000000;
+  --cor3: #C20000;
+  --cor4: #ffffff;
+  --cor5: #f1f1f1;
+}
+
+/*Fim do codigo para resetar o CSS padrão do navegador**/
+
+body {
+  font-size: 100%;
+}
+
+/** Começo do codigo do header**/
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 119px;
+  border-bottom: 2px solid var(--cor1);
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.cabecalho_logo {
+  width: 179px;
+  height: 101px;
+}
+
+.cabecalho_menu {
+  display: flex;
+  margin-left: 20px;
+  margin-right: -70px;
+}
+
+.cabecalho_item {
+  color: var(--cor2);
+  padding: 50px;
+
+}
+
+.cabecalho_item:hover {
+  background-color: var(--cor3);
+  color: var(--cor4);
+}
+
+
+.usuario_cabecalho {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 1%;
+}
+
+.dropbtn {
+  background-color: #C20000;
+  color: var(--cor4);
+  padding: 15px 50px;
+  border-radius: 10px;
+}
+
+.dropbtn_perfil {
+  background-color: #C20000;
+  color: var(--cor4);
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+
+
+/** Começo dos botoes de login **/
+
+.dropbtn {
+
+  font-size: 16px;
+  border: none;
+  width: 15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  background-color: var(--cor5);
+  min-width: 125px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.link_estilo {
+  font-size: 14px;
+}
+
+.dropdown-content a {
+  color: var(--cor2);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--cor3);
+  color: var(--cor4);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/** Começo do menu dropdown login **/
+
+.dropbtn_perfil {
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown_perfil {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content_perfil {
+  display: none;
+  position: absolute;
+  top: 35px;
+  background-color: var(--cor5);
+  min-width: 125px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content_perfil a {
+  color: var(--cor2);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content_perfil a:hover {
+  background-color: var(--cor3);
+  color: var(--cor4);
+}
+
+.dropdown_perfil:hover .dropdown-content_perfil {
+  display: block;
+}
+
+/** Fim do menu dropdown**/
+
+
+/** Fim do header**/
+
+
+
+
+/** Começo da section boas_vindas **/
+.muie_casa {
+  width: 100%;
+  height: 1500px;
+  margin-top: -30%;
+}
+
+
+.texto_boas_vindas_1 {
+  margin-left: 55%;
+  margin-top: 20%;
+  font-size: 100px;
+}
+
+.texto_boas_vindas_2 {
+  margin-top: 1%;
+  margin-left: 55%;
+  font-size: 40px;
+  margin-right: 40px;
+}
+
+/** Fim da section boas_vindas **/
+
+
+/** Começo da section section cadastro **/
+
+.cadastro {
+  background-color: var(--cor4);
+  display: flex;
+  width: 90%;
+  height: 300px;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  margin-left: 10%;
+  margin-top: -35%;
+  text-align: center;
+  padding: 50px;
+  align-items: center;
+  border-radius: 60px 0px;
+}
+
+
+.deseja_logar {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 48px;
+  color: var(--cor3);
+}
+
+.butao {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  gap: 100px;
+}
+
+.cadastro_botao {
+  background-color: var(--cor3);
+  color: var(--cor4);
+  border-radius: 0px 30px;
+  padding: 10px 50px;
+  font-size: 30px;
+}
+
+.cadastro_botao:hover {
+  background-color: var(--cor2);
+  color: var(--cor4);
+}
+
+.ainda_nao_possui {
+  color: gray;
+  font-size: 20px;
+}
+
+#link_cadastro {
+  color: var(--cor2);
+}
+
+#link_cadastro:hover {
+  color: var(--cor2);
+  text-decoration: underline;
+}
+
+
+/** Fim da section cadastro **/
+
+
+
+
+/** Começo da section conheca_projeto  **/
+
+#conheca_projeto {
+  padding: 3% 5%;
+  height: 300px;
+}
+
+#conheca_projeto h3 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 73px;
+  color: var(--cor3);
+}
+
+#conheca_projeto p {
+  margin-top: 2%;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: justify;
+}
+
+
+#fatec_itapira {
+  background-color: var(--cor2);
+  color: var(--cor4);
+  height: 500px;
+  border-radius: 0px 60px 0px 0px;
+  padding: 3% 5%;
+  margin-top: 5%;
+}
+
+#fatec_itapira h3 {
+  color: var(--cor4);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 73px;
+  text-align: end;
+}
+
+#fatec_itapira p {
+  color: var(--cor4);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: justify;
+  margin-top: 2%;
+}
+
+#saiba_mais > p {
+  color: var(--cor3);
+}
+
+#saiba_mais:hover {
+  color: var(--cor3);
+  text-decoration: underline;
+}
+
+/** Fim da section conheca_projeto  **/
+
+
+
+
+/** Começo da section sobre_nos **/
+
+#sobre_nos {
+  color: var(--cor2);
+  height: 380px;
+  border-radius: 60px 0px 0px 0px;
+  padding: 4% 5%;
+}
+
+
+#sobre_nos h3 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 73px;
+  color: var(--cor2);
+}
+
+
+#sobre_nos p {
+  margin-top: 2%;
+  color: var(--cor2);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: justify;
+}
+
+
+.shiryu_amigo {
+  float: right;
+  margin-top: -10%;
+  margin-right: 0.1%;
+}
+
+
+/** Fim da section sobre_nos **/
+
+
+
+
+/** Começo da section rodape **/
+
+.rodape {
+  clear: right;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rodape_item {
+  text-decoration: none;
+  color: var(--cor2);
+}
+
+.rodape_item:hover {
+  text-decoration: underline;
+}
+
+
+
+.cabecalho_logo_rodape {
+  height: 50px;
+}
+
+
+.local_loguinhos {
+  margin-right: 30px;
+}
+
+.loguinho {
+  height: 20px;
+  margin-left: 20px;
+}
+
+
+/** Fim da section rodape **/

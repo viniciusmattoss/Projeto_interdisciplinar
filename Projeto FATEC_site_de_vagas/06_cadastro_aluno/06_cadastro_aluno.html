@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/06_cadastro_aluno.css">
+    <title>Cadastro Aluno</title>
+</head>
+<body>
+    <header class="cabecalho">
+
+        <a href="../01_home/01_home.html"><img class="cabecalho_logo" src="img/FATEC logo.svg" alt="Logo da FATEC Itapira"></a>
+
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_item" href="../01_home/01_home.html #conheca_projeto">Conheça o Projeto</a>
+            <a class="cabecalho_item" href="../01_home/01_home.html #fatec_itapira">FATEC Itapira</a>
+            <a class="cabecalho_item" href="../01_home/01_home.html #sobre_nos">Sobre Nós</a>
+        </nav>
+
+        <nav class="usuario_cabecalho">
+            <div class="dropdown">
+                <a class="dropbtn" href="#">Login</a>
+                <div class="dropdown-content">
+                    <a class="link_estilo" href="../03_login_aluno/03_login_aluno.html">Aluno</a>
+                    <a class="link_estilo" href="../02_login_empresa/02_login_empresa.html">Empresa</a>
+                    <a class="link_estilo" href="../04_login_fatec/04_login_fatec.html">FATEC</a>
+                </div>
+            </div>
+
+            <div class="dropdown_perfil">
+                <a class="dropbtn_perfil" href="#">Cadastrar-se</a>
+                <div class="dropdown-content_perfil">
+                    <a class="link_estilo" href="../06_cadastro_aluno/06_cadastro_aluno.html">Aluno</a>
+                    <a class="link_estilo" href="../05_cadastro_empresa/05_cadastro_empresa.html">Empresa</a>
+                    <a class="link_estilo" href="../07_cadastro_fatec/07_cadastro_fatec.html">FATEC</a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+       <div class="direita">
+           <img src="img/adicionar_imagem.png">
+          
+          <label for="biografia">Biografia</label> 
+          <textarea   class="info"cols="40" rows="40" placeholder="Biografia"></textarea>
+
+          <label for="experiencias">Resumo das experiências</label>
+          <textarea  class="info" cols="40" rows="40"placeholder="Experiências"></textarea>
+
+          <label for="interesse">Áreas de Interesse</label>
+          <textarea  class="info" cols="40" rows="40" placeholder="Descrição"></textarea>
+
+          <label for="Links">Links externos</label>
+          <textarea  id="links" cols="40" rows="5" placeholder="Links"></textarea>     
+       </div>
+
+        <form class="formulario"action="#">
+
+            <label for="nome">Nome</label>
+            <input class="campos" type="text" placeholder="Nome">
+
+            <label for="Sobrenome">Sobrenome</label>
+            <input class="campos" type="text" placeholder="Sobrenome">
+
+            <label for="data de nascimento">Data de Nascimento</label>
+            <input class="campos" type="text" placeholder="12/01/2004">
+            
+            <label for="RA">RA</label>
+            <input class="campos" type="text" placeholder="999999999999">
+
+            <label for="genero">Gênero</label>
+            <input class="campos" type="text" placeholder="Feminino">
+
+            <label for="curso">Curso</label>
+            <input class="campos" type="text" placeholder="DSM">
+
+            <label for="periodo">Período do curso</label>
+            <input class="campos" type="text" placeholder="Noite">
+
+            <label for="cidade">Cidade</label>
+            <input class="campos" type="text" placeholder="Itapira">
+
+            <label for="Aptidões">Habilidades</label>
+            <input class="campos" type="text" placeholder="Habilidades">
+
+            <label for="linguas">Idiomas</label>
+            <input class="campos" type="text" placeholder="Linguas: Português,inglês">
+
+            <label for="regiao">Região de Interesse</label>
+            <input class="campos" type="text" placeholder="Campinas">
+
+            <label for="email">E-mail Institucional</label>
+            <input class="campos" type="email" placeholder="nome@fatec.sp.gov.br">
+
+            <label for="telefone">Telefone</label>
+            <input class="campos" type="tel" placeholder="(19) 99999-9999">
+
+            <label for="curriculo">Anexe o seu curriculo</label>
+            <input id="curriculo" type="file">
+
+            <label for="modalidade">Modalidade de preferência</label>
+            <input class="campos" type="text" placeholder="Home-office, presencial">
+        </form>
+        
+    </main>
+    
+    <section class="botoes">
+        <button class="cancelar">Cancelar</button>
+        <button class="atualizar">Cadastrar</button>
+    </section>
+    <footer class="rodape">
+
+        <a class="rodape_item" href="../01_home/01_home.html #sobre_nos">Sobre Nós</a>
+        <a class="rodape_item" href="../01_home/01_home.html #fatec_itapira">Fatec Itapira</a>
+        <a class="rodape_item" href="../01_home/01_home.html #conheca_projeto">Conheça o Projeto</a>
+        <div class="local_loguinhos">
+            <a href="https://www.instagram.com/accounts/login/?next=/fatecdeitapira/" target = "blank"><img class="loguinho" src="img/instagram.png" alt="Link para acessar o instagram da Fatec Itapira"></a>
+            <a href="https://pt-br.facebook.com/fatecitapira/" target = "blank"><img class="loguinho" src="img/facebook.png" alt="Link para acessar o facebook da Fatec Itapira"></a>
+            <a href="https://www.fatecitapira.edu.br/" target = "blank"><img class="loguinho" src="img/email.png" alt="Link para o e-mail da Fatec Itapira"></a>
+        </div>
+    </footer>
+       
+</body>
+</html>

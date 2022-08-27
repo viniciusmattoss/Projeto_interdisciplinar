@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/05_cadastro_empresa.css">
+    <title>Cadastro Empresa</title>
+</head>
+<body>
+    <header class="cabecalho">
+
+        <a href="../01_home/01_home.html"><img class="cabecalho_logo" src="img/FATEC logo.svg" alt="Logo da FATEC Itapira"></a>
+
+        <nav class="cabecalho_menu">
+            <a class="cabecalho_item" href="../01_home/01_home.html #conheca_projeto">Conheça o Projeto</a>
+            <a class="cabecalho_item" href="../01_home/01_home.html #fatec_itapira">FATEC Itapira</a>
+            <a class="cabecalho_item" href="../01_home/01_home.html #sobre_nos">Sobre Nós</a>
+        </nav>
+
+        <nav class="usuario_cabecalho">
+            <div class="dropdown">
+                <a class="dropbtn" href="#">Login</a>
+                <div class="dropdown-content">
+                    <a class="link_estilo" href="../03_login_aluno/03_login_aluno.html">Aluno</a>
+                    <a class="link_estilo" href="../02_login_empresa/02_login_empresa.html">Empresa</a>
+                    <a class="link_estilo" href="../04_login_fatec/04_login_fatec.html">FATEC</a>
+                </div>
+            </div>
+
+            <div class="dropdown_perfil">
+                <a class="dropbtn_perfil" href="#">Cadastrar-se</a>
+                <div class="dropdown-content_perfil">
+                    <a class="link_estilo" href="../06_cadastro_aluno/06_cadastro_aluno.html">Aluno</a>
+                    <a class="link_estilo" href="05_cadastro_empresa.html">Empresa</a>
+                    <a class="link_estilo" href="../07_cadastro_fatec/07_cadastro_fatec.html">FATEC</a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+       <div class="direita">
+           <img id="pfp" src="img/adicionar_imagem.png">
+          
+            <label for="resumo">Resumo da Empresa</label>
+            <textarea   id="info"cols="40" rows="40" placeholder="Resumo"></textarea>
+
+            <label for="Links">Links externos</label>
+            <textarea  id="links" cols="40" rows="5" placeholder="Links"></textarea>
+
+           
+       </div>
+        <form class="formulario"action="#">
+
+            <label for="nome">Razão Social</label>
+            <input class="campos" type="text" placeholder="Razão Social">
+
+            <label for="cnpj">CNPJ</label>
+            <input class="campos" type="text" placeholder="XX.XXX.XXX/XXXX-XX">
+
+            <label for="cidade">Cidade</label>
+            <input class="campos" type="text" placeholder="Cidade">
+
+            <label for="endereco">Endereço</label>
+            <input class="campos" type="text" placeholder="Endereço">
+
+            <label for="email">E-mail coorporativo</label>
+            <input class="campos" type="email" placeholder="contato@empresa.com.br">
+
+            <label for="telefone">Telefone</label>
+            <input class="campos" type="tel" placeholder="(19) 9999-9999">
+        </form>
+        
+    </main>
+    
+    <section class="botoes">
+        <button class="cancelar">Cancelar</button>
+        <button class="atualizar">Cadastrar</button>
+    </section>
+   <footer class="rodape">
+
+        <a class="rodape_item" href="../01_home/01_home.html #sobre_nos">Sobre Nós</a>
+        <a class="rodape_item" href="../01_home/01_home.html #fatec_itapira">Fatec Itapira</a>
+        <a class="rodape_item" href="../01_home/01_home.html #conheca_projeto">Conheça o Projeto</a>
+        <div class="local_loguinhos">
+            <a href="https://www.instagram.com/accounts/login/?next=/fatecdeitapira/" target = "blank"><img class="loguinho" src="img/instagram.png" alt="Link para acessar o instagram da Fatec Itapira"></a>
+            <a href="https://pt-br.facebook.com/fatecitapira/" target = "blank"><img class="loguinho" src="img/facebook.png" alt="Link para acessar o facebook da Fatec Itapira"></a>
+            <a href="https://www.fatecitapira.edu.br/" target = "blank"><img class="loguinho" src="img/email.png" alt="Link para o e-mail da Fatec Itapira"></a>
+        </div>
+    </footer>
+       
+</body>
+</html>
